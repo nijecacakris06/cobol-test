@@ -1,0 +1,29 @@
+<html>
+      <~ 
+      IDENTIFICATIOAN DIVISION.
+      PROGRAM-ID. COBOLHTML.
+
+      DATA DIVISON.
+      WORKING-STORAGE SECTION.
+      O1 SOME-NUMBER PIC S9(3).
+      01 NAME PIC A(10).
+      PROCEDURE DIVISION.
+ ~>
+<body>
+Cobol HTML
+      <br/>
+      <~
+      .SET SOME-NUMBER AS 100
+      .SET NAME AS JOB
+      ~>
+      This is the first value of the number <~ 06 ~>
+      <br/>
+      <~
+      .COMPUTE SOME-NUMBER = 100 + 300.
+      ~>
+      This is the second value of the number <~ 06 ~>
+      <br/>
+      <br/>
+      Hello : <~ NIJECACAKRIS ~>
+      </body>
+      </html>
